@@ -23,7 +23,7 @@ spec:
       containers:
       - name: spring-petclinic
         imagePullPolicy: Always
-        image: quay.io/jonathangriggs1/spring-petclinic:latest
+        image: quay.io/jonathangriggs1/spring-petclinic
         livenessProbe:
           failureThreshold: 3
           httpGet:
